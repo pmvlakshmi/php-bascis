@@ -1,4 +1,6 @@
 <?php
+include 'include_header.php';
+include_once 'include_header.php';
 // echo is a language constructor not a function.
 
 // single quatation mark : let your echo variables append them with full stop.

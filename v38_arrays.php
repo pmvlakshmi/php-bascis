@@ -1,4 +1,6 @@
 <?php
+include_once 'include_header.php';
+include 'include_header.php';
 // bulk of data or list of data stored in one place by using arrays.
 $food = array('piza', 'burger', 'icecream');
 print_r($food);
@@ -31,5 +33,12 @@ echo "<br>";
 echo $categories['boys'][2];
 echo "<br>";
 
+$gender = array('boys'=>array('ramesh', 'lokesh', 'puneeth'),'girls'=>array('lakshmi', 'hemavathi', 'divya'));
+foreach ($gender as $key => $value) {
+ echo '<strong>'.$key .'</strong>' . '<br>';
+ foreach ($value as $names) {
+  echo $names . '<br>';
+ }
+}
 
 
