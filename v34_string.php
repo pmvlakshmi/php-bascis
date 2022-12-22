@@ -42,6 +42,9 @@ echo '<br>';
 $string_length = strlen($string);
 echo $string_length;
 echo '<br>';
+for ($x; $x<=$string_length; $x++){
+ echo $x . '<br>';
+}
 //combination of sub string and string length
 $combination1 = substr($string_shuffled, 0, $string_length/2);
 echo $combination1;
@@ -81,5 +84,52 @@ $html_entities = htmlentities($add_slashes);
 echo $html_entities;
 echo '<br>';
 
+echo strtolower($string);
+echo '<br>';
+echo strtoupper($string);
+echo '<br>';
 
+$string_position = 'The quick brown fox jumps over the lazy dog and fox.';
+$substring = 'fox';
+$pos = strpos($string_position, $substring);
+if ($pos !== false) {
+    echo "The substring was found at position $pos";
+    echo '<br>';
+} else {
+    echo 'The substring was not found';
+    echo '<br>';
+}
+$offset = 0;
+$string_length = strlen($substring);
+while ($str_pos = strpos($string_position, $substring, $offset)) {
+ echo $substring . ' finds at position ' . $str_pos . '<br>';
+ $offset = $str_pos + $string_length ;
+}
 
+// syntax: str_replace(search, replace, subject, count);
+$subject = "The quick brown fox jumps over the lazy dog.";
+$search = "fox";
+$replace = "cat";
+$result = str_replace($search, $replace, $subject);
+echo $result;
+echo '<br>';
+
+$subject = "The quick brown fox jumps over the lazy dog.";
+$search = array("fox", "dog");
+$replace = array("cat", "mouse");
+$result = str_replace($search, $replace, $subject);
+echo $result;
+echo '<br>';
+
+// syntax: substr_replace(string, replacement, start, length);
+$string = "The quick brown fox jumps over the lazy dog.";
+$replacement = "cat";
+$result = substr_replace($string, $replacement, 16, 3);
+echo $result;
+echo '<br>';
+
+$string = "The quick brown fox jumps over the lazy dog.";
+$replacement = "cat";
+$result = substr_replace($string, $replacement, -4, -3);
+echo $result;
+echo '<br>';
