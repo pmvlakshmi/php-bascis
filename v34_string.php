@@ -133,3 +133,10 @@ $replacement = "cat";
 $result = substr_replace($string, $replacement, -4, -3);
 echo $result;
 echo '<br>';
+
+// str_ireplace() is a function in PHP that performs a case-insensitive search
+$string = "Hello World!";
+$search = "world";
+$replace = "PHP";
+$result = str_ireplace($search, $replace, $string);
+echo $result;
