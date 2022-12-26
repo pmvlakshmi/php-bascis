@@ -1,4 +1,5 @@
 <?php
+  echo getcwd();
   session_start();
 
   // Store data in the session
@@ -8,4 +9,3 @@
   // Retrieve data from the session
   // $name = $_SESSION['name'];
   // $email = $_SESSION['email'];
-?>
