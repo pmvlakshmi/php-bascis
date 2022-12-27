@@ -3,6 +3,6 @@
   setcookie('name', 'John', time() + 86400);
 
  // unset or destroy cookies.
- setcookie('name', 'John', time() - 86400);
+ // setcookie('name', 'John', time() - 86400);
 
 ?>
