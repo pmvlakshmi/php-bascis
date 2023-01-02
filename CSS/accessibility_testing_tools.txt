@@ -1,0 +1,25 @@
+There are several tools that can be used to test the accessibility of a website. Here are a few examples:
+
+Lighthouse: 
+This is an open-source tool developed by Google that can be used to test the performance, 
+accessibility, and SEO of a website. It can be run as a Chrome extension or from the command line.
+
+WAVE: 
+This is a web accessibility evaluation tool developed by WebAIM 
+that allows you to test a webpage for accessibility issues. 
+It provides a visual representation of the webpage with indicators for any accessibility issues it detects.
+
+aXe: 
+This is an open-source accessibility testing tool developed by Deque Systems. 
+It can be run as a browser extension or from the command line.
+
+Color Contrast Analyzer: 
+This is a tool that allows you to test the color contrast of text and
+ background colors on a webpage to ensure that they meet accessibility standards.
+
+VoiceOver: 
+This is a screen reader that is built into Apple's macOS and iOS operating systems. 
+It can be used to test the accessibility of a webpage by simulating how it would be read aloud by a screen reader.
+
+It's important to note that while these tools can be useful for testing the accessibility of a website,
+ they should not be the only method used. It's also important to manually test the website and consider the needs of real users with disabilities

@@ -1,0 +1,101 @@
+.container1 {
+ width: 800px;
+}
+/* the three .element elements will be arranged one after the other, 
+with each element taking up 200 pixels of width and 100 pixels of height.
+The margin property adds some space between each element. */
+.element1 {
+ width: 200px;
+ height: 100px;
+ background-color: lightblue;
+ margin: 10px;
+}
+
+.container2 {
+ width: 800px;
+}
+.element2 {
+ width: 200px;
+ height: 100px;
+ background-color: lightblue;
+ margin: 10px;
+ float: left;
+}
+
+.container3 {
+ position: relative;
+}
+/* The top and left properties specify the distance from 
+the top and left edges of the parent element, respectively.*/
+.element3 {
+ width: 200px;
+ height: 100px;
+ background-color: blue;
+ margin: 10px;
+ position: absolute;
+ top: 150px;
+ left: 100px;
+}
+
+.container4 {
+ display: flex;
+ flex-direction: column;
+}
+.element4 {
+ width: 200px;
+ height: 100px;
+ background-color: rgb(18, 177, 44);
+ margin: 10px;
+}
+
+/* The grid-template-columns property specifies 
+that the grid should have three columns of equal width (1fr stands for "one fraction of the available space").  */
+.container5 {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+}
+.element5 {
+ width: 200px;
+ height: 100px;
+ background-color: lightblue;
+ margin: 10px;
+}
+
+.typography1 {
+ font-family: Arial, sans-serif;
+ color: brown;
+}
+
+.typography2 {
+ font-size: 16px;
+ font-weight: bold;
+ color: rgb(16, 20, 226);
+}
+
+.typography3 {
+ text-align: left;
+ text-decoration: underline;
+ color: rgb(218, 199, 33);
+}
+
+.typography4 {
+ text-transform: uppercase;
+ color: rgb(17, 12, 12);
+}
+
+.container7 {
+ display: flex;
+ flex-direction: row;
+}
+.element7 {
+ width: 200px;
+ height: 100px;
+ background-color: lightblue;
+ margin: 10px;
+}
+/* Media query for devices with a screen width of 600 pixels or less */
+@media screen and (max-width: 600px) {
+ .container7 {
+   flex-direction: column;
+ }
+}
