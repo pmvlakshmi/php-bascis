@@ -1,0 +1,18 @@
+HTML:
+Understanding the structure of an HTML document
+Creating headings, paragraphs, and text content
+Adding images and other media to a webpage
+Creating lists and tables
+Using HTML forms to accept user input
+Adding structure to your webpage with HTML5 semantic elements
+Creating links to other pages and resources
+CSS:
+Understanding how CSS works and the basic syntax of a stylesheet
+Setting font properties such as size, color, and style
+Working with text alignment, indentation, and white space
+Using CSS selectors to apply styles to specific elements on your webpage
+Setting properties for backgrounds, borders, and margins
+Positioning elements on the page with CSS
+Creating responsive layouts using media queries
+Working with CSS preprocessors like SASS and LESS
+Using CSS frameworks like Bootstrap

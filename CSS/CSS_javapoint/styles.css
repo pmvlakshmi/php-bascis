@@ -1,0 +1,64 @@
+h1{
+ color:darkred;
+}
+
+p {  
+ text-align: center;  
+ color: blue;  
+} 
+
+#para1 {  
+ text-align: center;  
+ color:red;  
+}
+
+.center {  
+ text-align: center;  
+ color: green;  
+}
+
+p.center1 {  
+ text-align: center;  
+ color: greenyellow;  
+}
+
+* {  
+ font-size: 20px;  
+}
+
+h2, p {  
+ text-align: left;  
+}  
+
+/* background-color */
+.background_color {
+ background-color: blueviolet;
+ color: black;
+}
+
+/* CSS background-image */
+.background_image {  
+ background-image: url("mobile.jpeg");  
+ margin-left:100px;  
+ color: red;
+ font-weight: bold;
+ }
+
+ /* CSS background-repeat */
+.background_repeat {
+ background-image: url("mobile.jpeg");
+ background-repeat: repeat-y;
+ margin-left:100px;  
+ color: red;
+ font-weight: bold;
+}
+
+/* CSS background-attachment */
+body {
+ background: white url('./mobile.jpeg');  
+background-repeat: no-repeat;  
+background-attachment: fixed;  
+ /* background-image: url('./mobile.jpeg');  
+ background-attachment: scroll; 
+ color: red; */
+}
